@@ -165,7 +165,7 @@ const translations = {
         'location.btn': 'View on Google Maps',
         'location.region': 'La Cumbre, Punilla Valley',
         'location.desc1': 'Our practice is located in <strong>La Cumbre</strong>, declared a <strong>National Historic Town</strong> in 2021 for its invaluable heritage, architectural and cultural value.',
-        'location.desc2': 'Known for its charming English style and early 20th century mansions, La Cumbre offers a circuit of 32 historic buildings, Central European cuisine, the "El Paraíso" Museum and the iconic Christ the Redeemer statue.',
+        'location.desc2': 'Known for its charming English style and early 20th century houses, La Cumbre offers a circuit of 32 historic buildings, Central European cuisine, the "El Paraíso" Museum and the iconic Christ the Redeemer statue.',
 
         // Contact
         'contact.title': 'Contact',
