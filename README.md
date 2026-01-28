@@ -28,7 +28,7 @@ For a more realistic development experience, you can use any local server:
 
 **Python:**
 ```bash
-python -m http.server 8000
+python3 -m http.server 8000
 ```
 
 **Node.js (npx):**

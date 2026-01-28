@@ -915,6 +915,14 @@ img {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.25rem;
+        max-width: calc(100% - 85px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .nav-links {
         position: fixed;
         top: 0;
