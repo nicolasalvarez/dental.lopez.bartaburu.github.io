@@ -95,6 +95,9 @@ const translations = {
         'contact.ctaText': 'Agenda una cita de evaluación donde conoceremos tu caso y te propondremos el mejor plan de tratamiento.',
         'contact.ctaBtn': 'Escribinos por WhatsApp',
 
+        // WhatsApp
+        'whatsapp.message': 'Hola! Me gustaría agendar una consulta.',
+
         // Footer
         'footer.tagline': 'Más de {years} años cuidando sonrisas',
         'footer.location': 'Ubicación',
@@ -194,6 +197,9 @@ const translations = {
         'contact.ctaText': 'Schedule an evaluation appointment where we will assess your case and propose the best treatment plan.',
         'contact.ctaBtn': 'Message us on WhatsApp',
 
+        // WhatsApp
+        'whatsapp.message': 'Hello! I would like to schedule an appointment.',
+
         // Footer
         'footer.tagline': 'Over {years} years caring for smiles',
         'footer.location': 'Location',
@@ -268,6 +274,15 @@ const i18n = {
             ? `Lopez Bartaburu • Estudio Dental | Más de ${years} años de tradición`
             : `Lopez Bartaburu • Dental Studio | Over ${years} years of tradition`;
         document.title = titleKey;
+
+        // Update WhatsApp links with localized message
+        const whatsappMessage = encodeURIComponent(this.t('whatsapp.message'));
+        const whatsappNumber = '5493548500293';
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+        document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+            link.href = whatsappUrl;
+        });
     },
 
     updateLangToggle() {

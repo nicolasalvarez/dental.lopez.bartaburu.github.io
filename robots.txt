@@ -1,0 +1,7 @@
+# Robots.txt for Lopez Bartaburu Estudio Dental
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dental.lopez.bartaburu.github.io/sitemap.xml
