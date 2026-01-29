@@ -1,6 +1,10 @@
 // Translations
 const translations = {
     es: {
+        // Brand
+        'brand.name': 'Lopez Bartaburu • Estudio Dental',
+        'brand.sub': 'Estudio Dental',
+
         // Nav
         'nav.home': 'Inicio',
         'nav.about': 'Nosotros',
@@ -18,7 +22,7 @@ const translations = {
 
         // About
         'about.title': 'Una tradición de excelencia en odontología',
-        'about.p1': 'Dental Lopez Bartaburu nació hace más de 70 años de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
+        'about.p1': 'Nuestro estudio nació hace más de 70 años de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
         'about.p2': 'Hoy, su hija la Dra. Claudia Lopez de Bartaburu y su nieta la Dra. Fernanda Bartaburu continúan ese legado, combinando la experiencia acumulada de generaciones con las técnicas más modernas.',
         'about.p3': 'Nuestra filosofía se centra en la prevención y en realizar intervenciones lo menos invasivas posibles, para que nuestros pacientes puedan disfrutar de su sonrisa de forma natural y sana.',
         'about.stat1': 'Años de experiencia',
@@ -96,6 +100,10 @@ const translations = {
         'footer.rights': 'Todos los derechos reservados.'
     },
     en: {
+        // Brand
+        'brand.name': 'Lopez Bartaburu • Dental Studio',
+        'brand.sub': 'Dental Studio',
+
         // Nav
         'nav.home': 'Home',
         'nav.about': 'About',
@@ -113,7 +121,7 @@ const translations = {
 
         // About
         'about.title': 'A tradition of excellence in dentistry',
-        'about.p1': 'Dental Lopez Bartaburu was founded over 70 years ago by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
+        'about.p1': 'Our studio was founded over 70 years ago by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
         'about.p2': 'Today, his daughter Dr. Claudia Lopez de Bartaburu and his granddaughter Dr. Fernanda Bartaburu continue that legacy, combining generations of accumulated experience with the most modern techniques.',
         'about.p3': 'Our philosophy focuses on prevention and performing the least invasive interventions possible, so our patients can enjoy their smile naturally and healthily.',
         'about.stat1': 'Years of experience',
@@ -242,8 +250,8 @@ const i18n = {
 
         // Update page title
         const titleKey = this.currentLang === 'es'
-            ? 'Dental Lopez Bartaburu | Odontología con más de 70 años de tradición'
-            : 'Dental Lopez Bartaburu | Dentistry with over 70 years of tradition';
+            ? 'Lopez Bartaburu • Estudio Dental | Más de 70 años de tradición'
+            : 'Lopez Bartaburu • Dental Studio | Over 70 years of tradition';
         document.title = titleKey;
     },
 

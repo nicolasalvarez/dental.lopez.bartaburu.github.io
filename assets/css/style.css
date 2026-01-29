@@ -921,15 +921,48 @@ a.contact-card:hover {
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .logo {
+        font-size: 1.25rem;
+        white-space: nowrap;
+    }
+
+    .logo-separator {
+        margin: 0 0.25rem;
+    }
+
+    .nav-links {
+        gap: 1.25rem;
+    }
+
+    .nav-links a {
+        font-size: 0.875rem;
+    }
 }
 
 @media (max-width: 768px) {
     .logo {
-        font-size: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
         max-width: calc(100% - 85px);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        line-height: 1.2;
+    }
+
+    .logo-main {
+        font-size: 1.1rem;
+    }
+
+    .logo-separator {
+        display: none;
+    }
+
+    .logo-sub {
+        font-size: 0.75rem;
+        opacity: 0.8;
+        font-weight: 300;
+        letter-spacing: 0.05em;
     }
 
     .nav-links {
