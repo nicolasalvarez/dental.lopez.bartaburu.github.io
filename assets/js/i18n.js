@@ -26,7 +26,7 @@ const translations = {
 
         // About
         'about.title': 'Una tradición de excelencia en odontología',
-        'about.p1': 'Nuestro estudio nació en 1956 de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
+        'about.p1': 'Nuestro estudio dental nació en 1956 de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
         'about.p2': 'Hoy, su hija la Dra. Claudia Lopez de Bartaburu y su nieta la Dra. Fernanda Bartaburu continúan ese legado, combinando la experiencia acumulada de generaciones con las técnicas más modernas.',
         'about.p3': 'Nuestra filosofía se centra en la prevención y en realizar intervenciones lo menos invasivas posibles, para que nuestros pacientes puedan disfrutar de su sonrisa de forma natural y sana.',
         'about.stat1': 'Años de experiencia',
@@ -125,7 +125,7 @@ const translations = {
 
         // About
         'about.title': 'A tradition of excellence in dentistry',
-        'about.p1': 'Our studio was founded in 1956 by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
+        'about.p1': 'Our dental studio was founded in 1956 by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
         'about.p2': 'Today, his daughter Dr. Claudia Lopez de Bartaburu and his granddaughter Dr. Fernanda Bartaburu continue that legacy, combining generations of accumulated experience with the most modern techniques.',
         'about.p3': 'Our philosophy focuses on prevention and performing the least invasive interventions possible, so our patients can enjoy their smile naturally and healthily.',
         'about.stat1': 'Years of experience',
