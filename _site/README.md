@@ -61,7 +61,7 @@ The homepage (`index.html`) includes:
 - **Values** - Core principles of the practice
 - **Services** - Dental services offered
 - **Team** - Professional profiles (three generations)
-- **Legacy** - Founder tribute (Dr. Luis Lopez)
+- **Legacy** - Founder tribute (Dr. Luis A. López Masaguer)
 - **Location** - Address and town information (La Cumbre)
 - **Contact** - WhatsApp contact information
 

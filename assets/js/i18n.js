@@ -18,7 +18,7 @@ const translations = {
 
         // About
         'about.title': 'Una tradición de excelencia en odontología',
-        'about.p1': 'Dental Lopez Bartaburu nació hace más de 70 años de la mano del Dr. Luis Lopez, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
+        'about.p1': 'Dental Lopez Bartaburu nació hace más de 70 años de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
         'about.p2': 'Hoy, su hija la Dra. Claudia Lopez de Bartaburu y su nieta la Dra. Fernanda Bartaburu continúan ese legado, combinando la experiencia acumulada de generaciones con las técnicas más modernas.',
         'about.p3': 'Nuestra filosofía se centra en la prevención y en realizar intervenciones lo menos invasivas posibles, para que nuestros pacientes puedan disfrutar de su sonrisa de forma natural y sana.',
         'about.stat1': 'Años de experiencia',
@@ -59,10 +59,10 @@ const translations = {
 
         // Legacy
         'legacy.title': 'Un Legado de Cuidado',
-        'legacy.p1': 'Todo comenzó hace más de 70 años cuando el Dr. Luis Lopez abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
+        'legacy.p1': 'Todo comenzó hace más de 70 años cuando el Dr. Luis A. López Masaguer abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
         'legacy.p2': 'Esa visión sigue viva hoy. Cada paciente que cruza nuestra puerta recibe el mismo compromiso y dedicación que caracterizó a nuestro fundador.',
         'legacy.quote': '"La mejor odontología es aquella que trata a cada paciente como familia."',
-        'legacy.cite': '— Dr. Luis Lopez, Fundador',
+        'legacy.cite': '— Dr. Luis A. López Masaguer, Fundador',
 
         // Location
         'location.title': 'Nuestra Ubicación',
@@ -70,8 +70,9 @@ const translations = {
         'location.address': 'La Cumbre, Córdoba - CP 5178',
         'location.btn': 'Ver en Google Maps',
         'location.region': 'La Cumbre, Valle de Punilla',
-        'location.desc1': 'Nuestro consultorio está ubicado en <strong>La Cumbre</strong>, declarada <strong>Poblado Histórico Nacional</strong> en 2021 por su incalculable valor patrimonial, arquitectónico y cultural.',
-        'location.desc2': 'Conocida por su encantador estilo inglés y sus casonas de principios del siglo XX, La Cumbre ofrece un circuito de 32 edificios históricos, gastronomía centroeuropea, el Museo "El Paraíso" y el icónico Cristo Redentor.',
+        'location.desc1': 'Nuestro consultorio se ubica en el corazón de <strong>La Cumbre</strong>, declarada <strong>Poblado Histórico Nacional</strong> en 2021. Este reconocimiento destaca un valor patrimonial y arquitectónico incalculable que define la identidad de nuestro entorno.',
+        'location.desc2': 'La localidad es célebre por su encantador estilo inglés y sus casonas de principios del siglo XX. Quienes nos visitan pueden disfrutar de un circuito de edificios históricos, gastronomía centroeuropea y puntos icónicos como el Museo "El Paraíso", el Cristo Redentor o La Cumbre Golf Club.',
+        'location.desc3': 'Elegimos este escenario porque la serenidad de las sierras complementa nuestra filosofía de trabajo. Buscamos que tu visita sea una experiencia de bienestar, combinando la tradición de nuestra clínica con la calidez única de este lugar.',
 
         // Contact
         'contact.title': 'Contacto',
@@ -112,7 +113,7 @@ const translations = {
 
         // About
         'about.title': 'A tradition of excellence in dentistry',
-        'about.p1': 'Dental Lopez Bartaburu was founded over 70 years ago by Dr. Luis Lopez, who established the foundations of what is today a family tradition dedicated to dental health.',
+        'about.p1': 'Dental Lopez Bartaburu was founded over 70 years ago by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
         'about.p2': 'Today, his daughter Dr. Claudia Lopez de Bartaburu and his granddaughter Dr. Fernanda Bartaburu continue that legacy, combining generations of accumulated experience with the most modern techniques.',
         'about.p3': 'Our philosophy focuses on prevention and performing the least invasive interventions possible, so our patients can enjoy their smile naturally and healthily.',
         'about.stat1': 'Years of experience',
@@ -153,10 +154,10 @@ const translations = {
 
         // Legacy
         'legacy.title': 'A Legacy of Care',
-        'legacy.p1': 'It all began over 70 years ago when Dr. Luis Lopez opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
+        'legacy.p1': 'It all began over 70 years ago when Dr. Luis A. López Masaguer opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
         'legacy.p2': 'That vision is still alive today. Every patient who walks through our door receives the same commitment and dedication that characterized our founder.',
         'legacy.quote': '"The best dentistry is one that treats every patient like family."',
-        'legacy.cite': '— Dr. Luis Lopez, Founder',
+        'legacy.cite': '— Dr. Luis A. López Masaguer, Founder',
 
         // Location
         'location.title': 'Our Location',
@@ -164,8 +165,9 @@ const translations = {
         'location.address': 'La Cumbre, Córdoba - ZIP 5178',
         'location.btn': 'View on Google Maps',
         'location.region': 'La Cumbre, Punilla Valley',
-        'location.desc1': 'Our practice is located in <strong>La Cumbre</strong>, declared a <strong>National Historic Town</strong> in 2021 for its invaluable heritage, architectural and cultural value.',
-        'location.desc2': 'Known for its charming English style and early 20th century houses, La Cumbre offers a circuit of 32 historic buildings, Central European cuisine, the "El Paraíso" Museum and the iconic Christ the Redeemer statue.',
+        'location.desc1': 'Our practice is located in the heart of <strong>La Cumbre</strong>, declared a <strong>National Historic Town</strong> in 2021. This recognition highlights the invaluable heritage and architectural beauty that defines our surroundings.',
+        'location.desc2': 'The town is famous for its charming English style and early 20th-century mansions. Visitors can enjoy a circuit of historic buildings, Central European cuisine, and iconic landmarks such as the \'El Paraíso\' Museum, the Cristo Redentor statue, and the La Cumbre Golf Club.',
+        'location.desc3': 'We chose this setting because the serenity of the hills complements our work philosophy. We strive to make your visit a wellness experience, combining our clinic\'s tradition with the unique warmth of this place.',
 
         // Contact
         'contact.title': 'Contact',

@@ -18,7 +18,7 @@ const translations = {
 
         // About
         'about.title': 'Una tradición de excelencia en odontología',
-        'about.p1': 'Dental Lopez Bartaburu nació hace más de 70 años de la mano del Dr. Luis Lopez, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
+        'about.p1': 'Dental Lopez Bartaburu nació hace más de 70 años de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
         'about.p2': 'Hoy, su hija la Dra. Claudia Lopez de Bartaburu y su nieta la Dra. Fernanda Bartaburu continúan ese legado, combinando la experiencia acumulada de generaciones con las técnicas más modernas.',
         'about.p3': 'Nuestra filosofía se centra en la prevención y en realizar intervenciones lo menos invasivas posibles, para que nuestros pacientes puedan disfrutar de su sonrisa de forma natural y sana.',
         'about.stat1': 'Años de experiencia',
@@ -59,10 +59,10 @@ const translations = {
 
         // Legacy
         'legacy.title': 'Un Legado de Cuidado',
-        'legacy.p1': 'Todo comenzó hace más de 70 años cuando el Dr. Luis Lopez abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
+        'legacy.p1': 'Todo comenzó hace más de 70 años cuando el Dr. Luis A. López Masaguer abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
         'legacy.p2': 'Esa visión sigue viva hoy. Cada paciente que cruza nuestra puerta recibe el mismo compromiso y dedicación que caracterizó a nuestro fundador.',
         'legacy.quote': '"La mejor odontología es aquella que trata a cada paciente como familia."',
-        'legacy.cite': '— Dr. Luis Lopez, Fundador',
+        'legacy.cite': '— Dr. Luis A. López Masaguer, Fundador',
 
         // Location
         'location.title': 'Nuestra Ubicación',
@@ -112,7 +112,7 @@ const translations = {
 
         // About
         'about.title': 'A tradition of excellence in dentistry',
-        'about.p1': 'Dental Lopez Bartaburu was founded over 70 years ago by Dr. Luis Lopez, who established the foundations of what is today a family tradition dedicated to dental health.',
+        'about.p1': 'Dental Lopez Bartaburu was founded over 70 years ago by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
         'about.p2': 'Today, his daughter Dr. Claudia Lopez de Bartaburu and his granddaughter Dr. Fernanda Bartaburu continue that legacy, combining generations of accumulated experience with the most modern techniques.',
         'about.p3': 'Our philosophy focuses on prevention and performing the least invasive interventions possible, so our patients can enjoy their smile naturally and healthily.',
         'about.stat1': 'Years of experience',
@@ -153,10 +153,10 @@ const translations = {
 
         // Legacy
         'legacy.title': 'A Legacy of Care',
-        'legacy.p1': 'It all began over 70 years ago when Dr. Luis Lopez opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
+        'legacy.p1': 'It all began over 70 years ago when Dr. Luis A. López Masaguer opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
         'legacy.p2': 'That vision is still alive today. Every patient who walks through our door receives the same commitment and dedication that characterized our founder.',
         'legacy.quote': '"The best dentistry is one that treats every patient like family."',
-        'legacy.cite': '— Dr. Luis Lopez, Founder',
+        'legacy.cite': '— Dr. Luis A. López Masaguer, Founder',
 
         // Location
         'location.title': 'Our Location',
