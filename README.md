@@ -1,6 +1,6 @@
 # Dental Lopez Bartaburu
 
-Website for Dental Lopez Bartaburu, a dental practice with over 70 years of history located in La Cumbre, Córdoba, Argentina.
+Website for Dental Lopez Bartaburu, a dental practice founded in 1956 located in La Cumbre, Córdoba, Argentina.
 
 ## Tech Stack
 

@@ -1,3 +1,7 @@
+// Founding year - used to calculate years of experience
+const FOUNDING_YEAR = 1956;
+const getYearsOfExperience = () => new Date().getFullYear() - FOUNDING_YEAR;
+
 // Translations
 const translations = {
     es: {
@@ -14,7 +18,7 @@ const translations = {
         'nav.contact': 'Contacto',
 
         // Hero
-        'hero.badge': 'Más de 70 años de tradición',
+        'hero.badge': 'Más de {years} años de tradición',
         'hero.title': 'Tu sonrisa en las mejores manos',
         'hero.subtitle': 'Tres generaciones dedicadas a la excelencia en odontología. Atención personalizada con enfoque en prevención y técnicas mínimamente invasivas.',
         'hero.cta': 'Agendar cita',
@@ -22,7 +26,7 @@ const translations = {
 
         // About
         'about.title': 'Una tradición de excelencia en odontología',
-        'about.p1': 'Nuestro estudio nació hace más de 70 años de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
+        'about.p1': 'Nuestro estudio nació en 1956 de la mano del Dr. Luis A. López Masaguer, quien estableció los cimientos de lo que hoy es una tradición familiar dedicada a la salud dental.',
         'about.p2': 'Hoy, su hija la Dra. Claudia Lopez de Bartaburu y su nieta la Dra. Fernanda Bartaburu continúan ese legado, combinando la experiencia acumulada de generaciones con las técnicas más modernas.',
         'about.p3': 'Nuestra filosofía se centra en la prevención y en realizar intervenciones lo menos invasivas posibles, para que nuestros pacientes puedan disfrutar de su sonrisa de forma natural y sana.',
         'about.stat1': 'Años de experiencia',
@@ -63,7 +67,7 @@ const translations = {
 
         // Legacy
         'legacy.title': 'Un Legado de Cuidado',
-        'legacy.p1': 'Todo comenzó hace más de 70 años cuando el Dr. Luis A. López Masaguer abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
+        'legacy.p1': 'Todo comenzó en 1956 cuando el Dr. Luis A. López Masaguer abrió las puertas de su consultorio con una visión clara: brindar atención odontológica de calidad con un trato humano y cercano.',
         'legacy.p2': 'Esa visión sigue viva hoy. Cada paciente que cruza nuestra puerta recibe el mismo compromiso y dedicación que caracterizó a nuestro fundador.',
         'legacy.quote': '"La mejor odontología es aquella que trata a cada paciente como familia."',
         'legacy.cite': '— Dr. Luis A. López Masaguer, Fundador',
@@ -92,7 +96,7 @@ const translations = {
         'contact.ctaBtn': 'Escribinos por WhatsApp',
 
         // Footer
-        'footer.tagline': 'Más de 70 años cuidando sonrisas',
+        'footer.tagline': 'Más de {years} años cuidando sonrisas',
         'footer.location': 'Ubicación',
         'footer.hours': 'Horarios',
         'footer.contact': 'Contacto',
@@ -113,7 +117,7 @@ const translations = {
         'nav.contact': 'Contact',
 
         // Hero
-        'hero.badge': 'Over 70 years of tradition',
+        'hero.badge': 'Over {years} years of tradition',
         'hero.title': 'Your smile in the best hands',
         'hero.subtitle': 'Three generations dedicated to dental excellence. Personalized care focused on prevention and minimally invasive techniques.',
         'hero.cta': 'Book appointment',
@@ -121,7 +125,7 @@ const translations = {
 
         // About
         'about.title': 'A tradition of excellence in dentistry',
-        'about.p1': 'Our studio was founded over 70 years ago by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
+        'about.p1': 'Our studio was founded in 1956 by Dr. Luis A. López Masaguer, who established the foundations of what is today a family tradition dedicated to dental health.',
         'about.p2': 'Today, his daughter Dr. Claudia Lopez de Bartaburu and his granddaughter Dr. Fernanda Bartaburu continue that legacy, combining generations of accumulated experience with the most modern techniques.',
         'about.p3': 'Our philosophy focuses on prevention and performing the least invasive interventions possible, so our patients can enjoy their smile naturally and healthily.',
         'about.stat1': 'Years of experience',
@@ -162,7 +166,7 @@ const translations = {
 
         // Legacy
         'legacy.title': 'A Legacy of Care',
-        'legacy.p1': 'It all began over 70 years ago when Dr. Luis A. López Masaguer opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
+        'legacy.p1': 'It all began in 1956 when Dr. Luis A. López Masaguer opened the doors of his practice with a clear vision: to provide quality dental care with a human and personal touch.',
         'legacy.p2': 'That vision is still alive today. Every patient who walks through our door receives the same commitment and dedication that characterized our founder.',
         'legacy.quote': '"The best dentistry is one that treats every patient like family."',
         'legacy.cite': '— Dr. Luis A. López Masaguer, Founder',
@@ -191,7 +195,7 @@ const translations = {
         'contact.ctaBtn': 'Message us on WhatsApp',
 
         // Footer
-        'footer.tagline': 'Over 70 years caring for smiles',
+        'footer.tagline': 'Over {years} years caring for smiles',
         'footer.location': 'Location',
         'footer.hours': 'Hours',
         'footer.contact': 'Contact',
@@ -234,10 +238,15 @@ const i18n = {
     },
 
     t(key) {
-        return translations[this.currentLang][key] || key;
+        let text = translations[this.currentLang][key] || key;
+        // Replace {years} placeholder with calculated years
+        text = text.replace('{years}', getYearsOfExperience());
+        return text;
     },
 
     applyTranslations() {
+        const years = getYearsOfExperience();
+
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
             const text = this.t(key);
@@ -248,10 +257,16 @@ const i18n = {
             }
         });
 
+        // Update years stat number
+        const yearsStat = document.getElementById('years-stat');
+        if (yearsStat) {
+            yearsStat.textContent = years;
+        }
+
         // Update page title
         const titleKey = this.currentLang === 'es'
-            ? 'Lopez Bartaburu • Estudio Dental | Más de 70 años de tradición'
-            : 'Lopez Bartaburu • Dental Studio | Over 70 years of tradition';
+            ? `Lopez Bartaburu • Estudio Dental | Más de ${years} años de tradición`
+            : `Lopez Bartaburu • Dental Studio | Over ${years} years of tradition`;
         document.title = titleKey;
     },
 
