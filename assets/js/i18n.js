@@ -60,6 +60,7 @@ const translations = {
         // Team
         'team.title': 'Nuestro Equipo',
         'team.subtitle': 'Profesionales comprometidos con tu salud dental',
+        'team.license': 'M.P.',
         'team1.role': 'Odontóloga',
         'team1.bio': 'Segunda generación de la familia Lopez dedicada a la odontología. Con décadas de experiencia, combina la tradición familiar con las técnicas más actuales.',
         'team2.role': 'Odontóloga',
@@ -162,6 +163,7 @@ const translations = {
         // Team
         'team.title': 'Our Team',
         'team.subtitle': 'Professionals committed to your dental health',
+        'team.license': 'Lic.',
         'team1.role': 'Dentist',
         'team1.bio': 'Second generation of the Lopez family dedicated to dentistry. With decades of experience, she combines family tradition with the most current techniques.',
         'team2.role': 'Dentist',
